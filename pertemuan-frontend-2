@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Produk UMKM - STIKOM Banyuwangi</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">E-Katalog UMKM</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#products">Produk</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section id="products" class="catalog-section">
+
+            <div class="section-header">
+                <h2>Daftar Produk Unggulan</h2>
+                <p class="subtitle">Data disinkronkan dengan Layanan Backend API</p>
+            </div>
+
+            <div class="product-grid">
+
+                <!-- Produk 1 -->
+                <article class="product-card">
+                    <div class="card-badge">Tersedia</div>
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=500&q=80" alt="Laptop ThinkPad" class="product-img">
+                    </div>
+                    <div class="card-body">
+                        <span class="category">Laptop</span>
+                        <h3 class="product-title">Laptop ThinkPad</h3>
+                        <p class="product-price">Rp 12.500.000</p>
+                        <button class="btn btn-primary">Detail Produk</button>
+                    </div>
+                </article>
+
+                <!-- Produk 2 -->
+                <article class="product-card">
+                    <div class="card-badge">Tersedia</div>
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=500&q=80" alt="Mouse Wireless" class="product-img">
+                    </div>
+                    <div class="card-body">
+                        <span class="category">Aksesoris</span>
+                        <h3 class="product-title">Mouse Wireless</h3>
+                        <p class="product-price">Rp 250.000</p>
+                        <button class="btn btn-primary">Detail Produk</button>
+                    </div>
+                </article>
+
+                <!-- Produk 3 -->
+                <article class="product-card">
+                    <div class="card-badge">Tersedia</div>
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500&q=80" alt="Tablet Poco Pad" class="product-img">
+                    </div>
+                    <div class="card-body">
+                        <span class="category">Tablet</span>
+                        <h3 class="product-title">Tablet Poco Pad</h3>
+                        <p class="product-price">Rp 3.999.000</p>
+                        <button class="btn btn-primary">Detail Produk</button>
+                    </div>
+                </article>
+
+                <!-- Produk 4 -->
+                <article class="product-card">
+                    <div class="card-badge">Tersedia</div>
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&q=80" alt="Headphone Bluetooth" class="product-img">
+                    </div>
+                    <div class="card-body">
+                        <span class="category">Audio</span>
+                        <h3 class="product-title">Headphone Wireless</h3>
+                        <p class="product-price">Rp 750.000</p>
+                        <button class="btn btn-primary">Detail Produk</button>
+                    </div>
+                </article>
+
+                <!-- Produk 5 -->
+                <article class="product-card">
+                    <div class="card-badge">Tersedia</div>
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80" alt="Smartwatch Sport" class="product-img">
+                    </div>
+                    <div class="card-body">
+                        <span class="category">Wearable</span>
+                        <h3 class="product-title">Smartwatch Sport</h3>
+                        <p class="product-price">Rp 1.150.000</p>
+                        <button class="btn btn-primary">Detail Produk</button>
+                    </div>
+                </article>
+
+                <!-- Produk 6 -->
+                <article class="product-card">
+                    <div class="card-badge">Tersedia</div>
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500&q=80" alt="Keyboard Mechanical" class="product-img">
+                    </div>
+                    <div class="card-body">
+                        <span class="category">Aksesoris</span>
+                        <h3 class="product-title">Keyboard Mechanical</h3>
+                        <p class="product-price">Rp 650.000</p>
+                        <button class="btn btn-primary">Detail Produk</button>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
